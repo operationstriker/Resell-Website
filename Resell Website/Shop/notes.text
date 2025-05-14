@@ -1,1 +1,67 @@
 
+    <div id="container">
+    
+    <div class="Element" id="Airpodf">
+   <img src="./images/Airpods.png" id='Image'></img>
+   <p class="ItemText">Airpods</p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+     <div class="Element">
+   <img src="./images/JBL.png" id='Image'></img>
+   <p class="ItemText">JBL</p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+    <div class="Element">
+   <img src="./images/Corteiz.png" id='Image'></img>
+   <p class="ItemText">Shirt</p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+    </div>
+
+    <div id="container">
+   <div class="Element">
+   <img src="./images/Cap.png" id='Image'></img>
+   <p class="ItemText">Caps</p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+    <div class="Element">
+   <img src="./images/Denim Tears.png" id='Image'></img>
+   <p class="ItemText">Denim Tears</p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+     <div class="Element">
+   <img src="./images/Headphones.png" id='Image'></img>
+   <p class="ItemText">Headphones </p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+    </div>
+
+  <div class="container">
+       <div id="Element">
+   <img src="./images/Glasses.png" id='Image'></img>
+   <p class="ItemText">Glasses </p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+    <div class="Element">
+   <img src="./images/Dyson.png" id='Image'></img>
+   <p class="ItemText">Dyson </p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+    <div class="Element">
+   <img src="./images/PufferCoat.png" id='Image'></img>
+   <p class="ItemText">Puffer Jackets </p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+
+      <div class="Element">
+   <img src="./images/Cologne.png" id='Image'></img>
+   <p class="ItemText">Cologne </p>
+   <p class="PriceText">$10 AUD</p>
+    </div>
+  </div>
