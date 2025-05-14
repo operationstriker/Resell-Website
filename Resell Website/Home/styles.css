@@ -1,4 +1,9 @@
 
+body {
+    margin: 0px;
+}
+
+
 a {
     text-decoration: none;
     font-family: sans-serif;
