@@ -1,0 +1,50 @@
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.NavImages {
+    cursor: pointer;
+}
+
+
+#FAQ {
+    position: relative;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5em;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.Questions {
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: 20%;
+}
+
+.Questions:hover {
+    background-color: rgb(227, 227, 227);
+    text-decoration: underline;
+}
+
+
+
+
+
+
