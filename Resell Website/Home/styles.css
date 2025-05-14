@@ -48,7 +48,24 @@ a {
     display: none;
 }
 
+#container {
+    display: flex;
+    justify-content: center;
+}
 
 
+#FirstDiv {
+  border: 2px solid black;
+  height: 25vh;
+  width: 15%;
+  margin-right: 20px;
+
+}
+
+#FirstImage {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
 
 
