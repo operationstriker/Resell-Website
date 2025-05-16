@@ -73,10 +73,6 @@ a {
 }
 
 
-.Answers {
-    display: none;
-}
-
 #container {
     display: flex;
     justify-content: center;
@@ -97,4 +93,3 @@ a {
     text-align: center;
     margin: 0 auto;
 }
-
