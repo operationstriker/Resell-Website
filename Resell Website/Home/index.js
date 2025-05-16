@@ -34,6 +34,12 @@ function Open3() {
 
 const Answer4 = document.getElementById("Answer4")
 
+function Open4() {
+     Answer4.style.display = "block"
 
+    if(Answer4.style.display = "block") {
+        Answer4.style.display == "none"
+    }
+}
 
 
