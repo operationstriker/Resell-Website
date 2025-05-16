@@ -15,10 +15,20 @@ function Open1() {
 const Answer2 = document.getElementById("Answer2")
 
 function Open2() {
-    
+ Answer2.style.display = "block"
+
+    if(Answer2.style.display = "block") {
+        Answer2.style.display == "none"
+    }
 }
 
 const Answer3 = document.getElementById("Answer3")
 
+function Open3() {
+
+}
 
 const Answer4 = document.getElementById("Answer4")
+
+
+
