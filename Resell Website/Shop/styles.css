@@ -1,5 +1,5 @@
  
- 
+  
 body {
     margin: 0px;
 
@@ -60,13 +60,13 @@ option {
     font-size: 2em;
 }
 
-#container {
+.container {
     display: flex;
     justify-content: center;
 }
 
 
-.FirstDiv {
+#FirstDiv {
   /* border: 2px solid black; */
   height: 30vh;
   width: 22%;
