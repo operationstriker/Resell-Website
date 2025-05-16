@@ -1,13 +1,57 @@
  
+ 
+body {
+    margin: 0px;
 
+}
 
 /* font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif; */
 
+nav {
+    height: 8vh;
+    width: 100%;
+    background-color: gray;
+    text-align: right;
+}
+
+
+
+a {
+    position: relative;
+    bottom: -20%;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 1.5em;
+    margin-right: 20px;
+    color: black;
+}
+
 #ShopDiv {
+    position: relative;
+    left: 3%;
     /* border: 2px solid black; */
     border-bottom: 2px solid black;
     margin-bottom: 20px;
     width: 90%;
+}
+
+select {
+    position: relative;
+    text-align: right;
+    left: 85%;
+    bottom: 2vh;
+    border: none;
+}
+
+option {
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+#SearchBar {
+    width: 100%;
 }
 
 #ShopParagraph {
@@ -22,18 +66,31 @@
 }
 
 
-#FirstDiv {
-  border: 2px solid black;
+.FirstDiv {
+  /* border: 2px solid black; */
   height: 30vh;
   width: 22%;
   margin-right: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   cursor: pointer;
 
 }
 
-#FirstImage {
+#CapImage {
+    position: relative;
+    left: 15%;
+}
+
+/* .FirstImage {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+} */
+
+#HeadphoneImage {
+    position: relative;
+    left: 15%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
