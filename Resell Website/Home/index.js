@@ -12,7 +12,6 @@ function Open1() {
 }
 
 
-const Question2 = document.getElementById("Question2")
 const Answer2 = document.getElementById("Answer2")
 
 function Open2() {
