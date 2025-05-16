@@ -6,6 +6,7 @@
     width: 30%;
     cursor: pointer;
     border-radius: 10px;
+    border-color: black;
 }
 
 #BuyBtn {
@@ -15,6 +16,7 @@
     width: 30%;
     cursor: pointer;
     border-radius: 10px;
+    border-color: black;
 }
 
 
