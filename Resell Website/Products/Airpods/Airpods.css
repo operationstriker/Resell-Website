@@ -4,6 +4,7 @@
     color: white;
     height: 4vh;
     width: 30%;
+    cursor: pointer;
 }
 
 #BuyBtn {
@@ -11,6 +12,9 @@
     color: white;
     height: 4vh;
     width: 30%;
+    cursor: pointer;
 }
+
+
 
 
