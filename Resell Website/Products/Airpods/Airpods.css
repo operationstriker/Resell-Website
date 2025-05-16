@@ -2,12 +2,15 @@
 #CartBtn {
     background-color: gray;
     color: white;
+    height: 4vh;
     width: 30%;
 }
 
 #BuyBtn {
     background-color: rgb(0, 166, 255);
     color: white;
+    height: 4vh;
     width: 30%;
 }
+
 
