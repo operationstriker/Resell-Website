@@ -39,6 +39,8 @@ a {
 }
 
 
+
+
 #FAQ {
     position: relative;
     width: 10%;
@@ -87,13 +89,12 @@ a {
   width: 15%;
   margin-right: 20px;
   margin-bottom: 50px;
-
+  display: block;
 }
 
-#FirstImage {
+.FirstImage {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
 }
-
 
