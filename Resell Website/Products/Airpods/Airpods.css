@@ -26,8 +26,8 @@
     position: relative;
     justify-content: right;
     margin: 0 auto;
-    left: 25%;
-    border: 2px solid black;
+    top: 5vh;
+    left: 15%;
     height: 12vh;
     width: 30%;
 }
@@ -47,11 +47,9 @@
 
 #PriceID {
     position: relative;
-    bottom: 40%;
+    bottom: 2vh;
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     margin: 0px;
 }
-
-
