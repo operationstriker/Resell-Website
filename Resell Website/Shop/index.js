@@ -1,11 +1,11 @@
 
 
 const defaultcurrency = "AUD"
-const defaultlocation = "Australia"
+const defaultlocation = location[0]
 
 // array
 
 const location = ["Australia", "New Zealand", "United Kingdom"]
 
-
+console.log(defaultlocation)
 
