@@ -12,8 +12,9 @@ const USOption = document.getElementById("USOption");
 const CADOption = document.getElementById("CADOption");
 
 
-
-
+function UKFunc() {
+    
+}
 
 
 
