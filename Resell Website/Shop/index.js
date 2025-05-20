@@ -13,8 +13,19 @@ const CADOption = document.getElementById("CADOption");
 
 
 function UKFunc() {
+
+}
+
+
+function EUFunc() {
+
+}
+
+function USFunc() {
     
 }
+
+
 
 
 
