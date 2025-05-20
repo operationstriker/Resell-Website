@@ -8,7 +8,7 @@ const AUDOption = document.getElementById("AUDOption");
 const NZOption = document.getElementById("NZOption");
 const UKOption = document.getElementById("UKOption");
 const EUOption = document.getElementById("EUOption");
-const USOption = document.getElementById("USOption")
+const USOption = document.getElementById("USOption");
 const CADOption = document.getElementById("CADOption");
 
 
