@@ -23,3 +23,6 @@ const PriceText = document.getElementsByClassName("PriceText")
 
 
 
+
+
+
