@@ -1,7 +1,6 @@
 const location = ["Australia", "New Zealand", "United Kingdom"]
 const PriceText = document.getElementsByClassName("PriceText")
 
-
 const AUDOption = document.getElementById("AUDOption");
 const NZOption = document.getElementById("NZOption");
 const UKOption = document.getElementById("UKOption");
@@ -30,18 +29,7 @@ function CAFunc() {
 
 
 function NZFunc() {
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
