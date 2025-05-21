@@ -7,141 +7,75 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <nav>
         <a href="../Home/index.html">Home</a>
         <!-- <a href="../Shop/index.html" id="ShopNav">Shop</a> -->
          <a href="../Shop/index.html" id="ShopNav">Shop</a>
         <a href="../Contact/index.html">Contact</a>
+
+        <img src="./Images/Search.png" height="50px" class="NavImages">
+        <img src="./Images/Cart.png" height="50px" class="NavImages">
+        <img src="./Images/Account.png" height="50px" class="NavImages">
     </nav>
 
-<div id="ShopDiv">
-    <p id="ShopParagraph">Shop</p>
+    <div id="FilterDiv">
+    <div>Shoes</div>
+    <div>Jackets</div>
+    <div>Pants & Shorts</div>
+    <div>Tees</div>
+    <div>Accessories</div>
+    <div>Sports</div>
+    <div>Electronics</div>
+    <div>Headwear</div>
+    <div>Kids</div>
 </div>
 
-    <select>
-    <option id="AUDOption">Australia | AUD$</option>
-    <option id="NZOption" onclick="NZFunc()">New Zealand | NZ $</option>
-    <option id="UKOption" onclick="UKFunc()">UK | UK£</option>
-    <option id="EUOption" onclick="EUFunc()">Europe | EURO€</option>
-    <option id="USOption" onclick="USFunc()">United States | US $</option>
-    <option id="CADOption" onclick="CAFunc()">Canada | CA $</option>
-  </select>
 
-  <!-- grids -->
+    <p>WHATS POPULAR</p>
 
-
-     <div class="container">
-    <div class="FirstDiv" id="AirpodsDiv">
-        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" id="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-  
-       <div class="FirstDiv">
-        <img src="./Images/JBL.png" style="height: 100%; width: 100%;" id="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">JBL</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-
-       <div class="FirstDiv">
-        <img src="./Images/Denim Tears.png" style="height: 100%; width: 100%;" id="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Denim Tears</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-
-       <div class="FirstDiv">
-        <img src="./Images/PufferCoat.png" style="height: 100%; width: 90%;" id="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Puffer Coat</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-    </div>
-
-         <div class="container">
+    <div id="container">
     <div class="FirstDiv">
-        <img src="./Images/Glasses.png" style="height: 100%; width: 100%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Glasses</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/Corteiz.png" style="height: 100%; width: 105%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Shirts</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/Cologne.png" style="height: 90%; width: 95%; margin-bottom: 23px;" class="FirstImage" >
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Cologne</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/Headphones.png" style="height: 90%; width: 70%; margin-bottom: 23px; margin: 5 auto;" class="FirstImage" id="HeadphoneImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Headphones</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-    </div>
-
-         <div class="container">
-    <div class="FirstDiv">
-        <img src="./Images/Cap.png" style="height: 100%; width: 80%;" class="FirstImage" id="CapImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Cap</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/Watch.png" style="height: 100%; width: 95%; position: relative; left: 5%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Watch</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/beige.png" style="height: 100%; width: 95%;" class="FirstImage" id="BeigeIMG">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Jordans
-
-        </p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/chromehearts.png" style="height: 100%; width: 75%; position: relative; left: 13%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Chrome Hearts</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-    </div>
-
-         <div class="container">
-    <div class="FirstDiv">
-        <img src="./Images/UGG.png" style="height: 100%; width: 100%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">UGG</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-
-       <div class="FirstDiv">
-        <img src="./Images/Money.png" style="height: 100%; width: 85%; position: relative; left: 10%;" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Money Stool</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
-    </div>
-
-       <div class="FirstDiv">
-        <img src="./Images/Cologne.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
         <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;">$9.99</p>
     </div>
 
        <div class="FirstDiv">
-        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <img src="./Images/JBL.png" style="height: 100%; width: 100%;" class="FirstImage">
         <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
-        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$9.99 <b>AUD</b></p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;">$9.99</p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Denim Tears.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;">$9.99</p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/PufferCoat.png" style="height: 100%; width: 90%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;">$9.99</p>
     </div>
     </div>
 
 
 
+    <p id="FAQ">FAQ</p>
+
+    
+    <div class="Questions" id="Question1" onclick="Open1()">How will i get the links ▼ </div>
+    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer1">When purchased, the vendor links are sent to your email directly. <br>
+    Always enter the correct email information</p>
+    <div class="Questions" id="Question2" onclick="Open2()">Why Us ▼</div>
+        <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer2">When purchased, the vendor links are sent to your email directly. <br>
+    Always enter the correct email information</p>
+    <div class="Questions" id="Question3" onclick="Open3()">How can i contact incase of anything ▼</div>
+    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer3">When purchased, the vendor links are sent to your email directly. <br>
+    Always enter the correct email information</p>
+    <div class="Questions" id="Question4" onclick="Open4()">Am i purchasing products ▼</div>
+    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer4">When purchased, the vendor links are sent to your email directly. <br>
+    Always enter the correct email information</p>
 </body>
 <script src="index.js"></script>
 </html>
