@@ -96,6 +96,7 @@ option {
     left: 10%;
     height: 100%;
     width: 10%;
+    display: none;
 }
 
 #ShopUL {
@@ -108,7 +109,4 @@ option {
 .ShopLi {
     margin-bottom: 10px;
 }
-
-
-
 
