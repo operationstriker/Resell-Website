@@ -4,15 +4,12 @@ body {
 
 }
 
-/* font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif; */
 
 nav {
     height: 8vh;
     width: 100%;
     text-align: right;
 }
-
-
 
 a {
     position: relative;
