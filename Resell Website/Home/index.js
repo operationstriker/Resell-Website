@@ -1,5 +1,6 @@
 
 
+
 const Answer1 = document.getElementById("Answer1")
 
 
@@ -19,6 +20,8 @@ function Open2() {
 
     if(Answer2.style.display = "block") {
         Answer2.style.display == "none"
+    } else {
+         Answer2.style.display == "none"
     }
 }
 
@@ -43,3 +46,6 @@ function Open4() {
 }
 
 
+function Open5() {
+    
+}
