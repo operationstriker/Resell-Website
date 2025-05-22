@@ -1,6 +1,5 @@
 
 
-
 const Answer1 = document.getElementById("Answer1")
 
 
@@ -45,7 +44,12 @@ function Open4() {
     }
 }
 
+const Answer5 = document.getElementById("Answer5")
 
 function Open5() {
-    
+   Answer5.style.display = "block"
+
+    if(Answer5.style.display = "block") {
+        Answer5.style.display == "none"
+    }
 }
