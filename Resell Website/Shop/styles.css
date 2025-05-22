@@ -106,4 +106,5 @@ option {
 
 #ShopUL {
     margin: 0px;
+    list-style-type: none;
 }
