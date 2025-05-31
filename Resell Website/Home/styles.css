@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 37%;
+    left: 0%;
 }
 
 nav {
@@ -132,7 +132,5 @@ a {
     position: relative;
     top: 30vh;
 }
-
-
 
 
