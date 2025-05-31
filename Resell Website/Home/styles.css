@@ -2,14 +2,7 @@ body {
     margin: 0px;
 }
 
-header {
-    height: 5vh;
-    color: white;
-    font-family: Arial;
-    margin-bottom: 10px;
-    text-align: center;
-    align-content: center;
-}
+
 
 #LogoIcon {
     position: relative;
@@ -27,7 +20,6 @@ nav {
     text-align: center;
     align-content: center;
 }
-
 
 
 a {
@@ -140,5 +132,7 @@ a {
     position: relative;
     top: 30vh;
 }
+
+
 
 
