@@ -136,5 +136,7 @@ a {
 #BottomText {
     position: relative;
     top: 30vh;
+    text-align: center;
 }
+
 
