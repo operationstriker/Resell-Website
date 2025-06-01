@@ -133,4 +133,8 @@ a {
     top: 25vh;
 }
 
+#BottomText {
+    position: relative;
+    top: 30vh;
+}
 
