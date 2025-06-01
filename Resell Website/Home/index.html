@@ -3,91 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Resells</title>
-    <link rel="icon" type="image" href="../Home/Images/LogoIcon.png">
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-
-        <img src="../Home/Images/LogoIcon.png" height="100px" id="LogoIcon">
+    
 
     <nav>
-        <a href="../Shop/index.html" id="ShopNav">SHOP</a>
-        <a href="../Home/index.html">JACKETS</a>
-        <a href="../Shop/index.html" id="ShopNav">PANTS & SHORTS</a>
-        <a href="../Home/index.html">TEES</a>
-        <a href="../Shop/index.html" id="ShopNav">ACCESSORIES</a>
-        <a href="../Home/index.html">KIDS</a>
-        <a href="../Shop/index.html" id="ShopNav">HEADWEAR</a>
-          <a href="../Home/index.html">SPORTS</a>
-        <a href="../Shop/index.html" id="ShopNav">ELECTRONICS</a>
+        <a href="../Home/index.html">Home</a>
+        <!-- <a href="../Shop/index.html" id="ShopNav">Shop</a> -->
+         <a href="../Shop/index.html" id="ShopNav" onclick="OpenDiv()">Shop
+
+            <nav id="ListNav">
+        <div>
+                <ul id="ListUL">
+        <li class="ShopLi"><a href="../Products/Airpods/Airpods.html">Shoes</a></li>
+        <li class="ShopLi"><a href="">Clothes</a></li>
+        <li class="ShopLi"><a href="">Accessories</a></li>
+        <li class="ShopLi"><a href="">Electronics</a></li>
+        <li class="ShopLi"><a href="">Kids</a></li>
+    </ul>
+        </div>
+
+  </nav> 
+         </a>
+        <a href="../Contact/index.html">Contact</a>
     </nav>
 
+<div id="ShopDiv">
+    <p id="ShopParagraph">Shop</p>
+</div>
 
-    
-<div id="container">
-    <div class="FirstDiv">
-        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods Vendors</p>
-    </div>
-
-        <div class="FirstDiv">
-        <img src="./Images/PufferCoat.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Jackets Vendors</p>
-    </div>
-
-      <div class="FirstDiv">
-        <img src="./Images/JBL.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">JBL Vendors</p>
-    </div>
+<nav id="ListNav">
+    <ul id="ListUL">
+        <li class="ShopLi"><a href="../Products/Airpods/Airpods.html">Shoes</a></li>
+        <li class="ShopLi"><a href="">Clothes</a></li>
+        <li class="ShopLi"><a href="">Accessories</a></li>
+        <li class="ShopLi"><a href="">Sports</a></li>
+        <li class="ShopLi"><a href="">Electronics</a></li>
+        <li class="ShopLi"><a href="">Headwear</a></li>
+        <li class="ShopLi"><a href="">Kids</a></li>
+    </ul>
+  </nav> 
 
 
-    </div>
 
-    <div id="container">
-    <div class="FirstDiv">
-        <img src="./Images/Denim Tears.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Denim Tears Vendors</p>
-    </div>
+    <select>
+    <option id="AUDOption">Australia | AUD$</option>
+    <option id="NZOption" onclick="NZFunc()">New Zealand | NZ $</option>
+    <option id="UKOption" onclick="UKFunc()">UK | UK£</option>
+    <option id="EUOption" onclick="EUFunc()">Europe | EURO€</option>
+    <option id="USOption" onclick="USFunc()">United States | US $</option>
+    <option id="CADOption" onclick="CAFunc()">Canada | CA $</option>
+  </select>
 
-        <div class="FirstDiv">
-        <img src="./Images/Headphones.png" style="height: 100%; width: 75%; position: relative; left: 10%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Headphones Vendors</p>
-    </div>
-
-  <div class="FirstDiv">
-        <img src="./Images/Cologne.png" style="height: 100%; width: 100%;" id="AirpodImage" class="FirstImage">
-        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Cologne Vendors</p>
-    </div>
-
-    </div>
-
-     <div id="FAQDiv">
-    <p id="FAQ">FAQ</p>
-
-    
- <div class="Questions" id="Question1" onclick="Open1()">How will i get the links ▼ </div>
-    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer1">When purchased, the vendor links are sent to your email directly. <br>
-    Always enter the correct email information</p>
-    <div class="Questions" id="Question2" onclick="Open2()">Why Us ▼</div>
-        <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer2">When purchased, the vendor links are sent to your email directly. <br>
-    Always enter the correct email information</p>
-    <div class="Questions" id="Question3" onclick="Open3()">How can i contact incase of anything ▼</div>
-    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer3">When purchased, the vendor links are sent to your email directly. <br>
-    Always enter the correct email information</p>
-    <div class="Questions" id="Question4" onclick="Open4()">Am i purchasing products ▼</div>
-    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer4">When purchased, the vendor links are sent to your email directly. <br>
-    Always enter the correct email information</p>
-    <div class="Questions" id="Question4" onclick="Open5()">Who to contact ▼</div>
-    <p style="text-align: center; justify-content: center; margin: 0 auto;" class="Answers" id="Answer5">https://www.instagram.com/c0984i/ </p> 
-
-     </div>
-
-     <p id="BottomText">Start your reselling career today</p>
+  <!-- grids -->
 
 
+     <div class="container">
+
+            <!-- <div class="FirstDiv" id="AirpodsDiv">
+        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" id="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Airpods</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$11 <b>AUD</b></p>
+    </div> -->
  
+    <div class="FirstDiv" id="AirpodsDiv">
+        <a href="../Products/Airpods/Airpods.html">
+        <img src="./Images/Airpods.png" style="height: 100%; width: 100%;" id="FirstImage">
+        </a>
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif; position: relative; top: 20vh">Airpods</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;  position: relative; top: 20vh" class="PriceText;">$11 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+               <a href="../Products/Airpods/Airpods.html">
+        <img src="./Images/JBL.png" style="height: 100%; width: 100%;" id="FirstImage">
+         </a>
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">JBL</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$29.99 <b>AUD</b></p>
+    </div>
+
+
+
+       <div class="FirstDiv">
+        <img src="./Images/Denim Tears.png" style="height: 100%; width: 100%;" id="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Denim Tears</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$19.99 <b>AUD</b></p>
+    </div>
+
+
+       <div class="FirstDiv">
+        <img src="./Images/PufferCoat.png" style="height: 100%; width: 90%;" id="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Puffer Coat</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$20 <b>AUD</b></p>
+    </div>
+    </div>
+
+         <div class="container">
+    <div class="FirstDiv">
+        <img src="./Images/Glasses.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Glasses</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$20 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Corteiz.png" style="height: 100%; width: 105%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Shirts</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$15 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Cologne.png" style="height: 90%; width: 95%; margin-bottom: 23px;" class="FirstImage" >
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Cologne</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$70 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Headphones.png" style="height: 90%; width: 70%; margin-bottom: 23px; margin: 5 auto;" class="FirstImage" id="HeadphoneImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Headphones</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$60 <b>AUD</b></p>
+    </div>
+    </div>
+
+         <div class="container">
+    <div class="FirstDiv">
+        <img src="./Images/Cap.png" style="height: 100%; width: 80%;" class="FirstImage" id="CapImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Cap</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$15 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Watch.png" style="height: 100%; width: 95%; position: relative; left: 5%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Watch</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$22 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/beige.png" style="height: 100%; width: 95%;" class="FirstImage" id="BeigeIMG">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Jordans
+
+        </p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$48 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/chromehearts.png" style="height: 100%; width: 75%; position: relative; left: 13%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Chrome Hearts</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$30 <b>AUD</b></p>
+    </div>
+    </div>
+
+         <div class="container">
+    <div class="FirstDiv">
+        <img src="./Images/UGG.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">UGG</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$34 <b>AUD</b></p>
+    </div>
+
+
+       <div class="FirstDiv">
+        <img src="./Images/Money.png" style="height: 100%; width: 85%; position: relative; left: 10%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Money Stool</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$25 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/Takashi Murakami Rug.png" style="height: 100%; width: 100%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">Takashi Murakami Rug</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$15 <b>AUD</b></p>
+    </div>
+
+       <div class="FirstDiv">
+        <img src="./Images/northface.png" style="height: 100%; width: 90%; position: relative; left: 5%;" class="FirstImage">
+        <p style="text-align: center; margin: 0px; margin-bottom: 5px; font-weight: bold; font-family: sans-serif;">North Face Case</p>
+        <p style="text-align: center; margin: 0px; font-family: sans-serif;" class="PriceText">$5 <b>AUD</b></p>
+    </div>
+    </div>
+
+
+
 </body>
 <script src="index.js"></script>
 </html>
