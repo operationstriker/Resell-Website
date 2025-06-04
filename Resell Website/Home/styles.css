@@ -1,144 +1,113 @@
+ 
 body {
     margin: 0px;
+
 }
 
-
-
-#LogoIcon {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0%;
-}
 
 nav {
-    position: relative;
-    top: 5vh;
-    height: 2.5vh;
-    /* width: 80%; */
-    text-align: center;
-    align-content: center;
+    height: 8vh;
+    width: 100%;
+    text-align: right;
 }
-
 
 a {
     position: relative;
-    bottom: 20%;
+    bottom: -20%;
     text-decoration: none;
-    font-family: helvetica;
-     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-weight: 550;
+    font-family: Helvetica;
     font-weight: 550;
     font-size: 1.5em;
     margin-right: 20px;
     color: black;
 }
 
-
-.NavImages {
+#ShopDiv {
     position: relative;
-    bottom: 0%;
-    cursor: pointer;
+    left: 3%;
+    width: 90%;
 }
 
-#FilterDiv {
+select {
     position: relative;
-    width: 10%;
-    top: 10vh;
-    background-color: rgb(196, 194, 194);
-    display: none;
+    text-align: right;
+    left: 85%;
+    bottom: 2vh;
+    border: none;
 }
 
-
-
-
-#FAQ {
-    position: relative;
-    width: 10%;
-    text-align: center;
+option {
+    font-family: Arial;
     font-weight: bold;
-    font-size: 3.5em;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
+
 }
 
-.Questions {
-    padding-bottom: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /* border-top: 2px solid black;
-    border-bottom: 2px solid black; */
-    justify-content: center;
-    margin: 0 auto;
-    text-align: left;
-    font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    width: 25%;
+#SearchBar {
+    width: 100%;
 }
 
-.Questions:hover {
-    background-color: rgb(227, 227, 227);
-    text-decoration: underline;
+#ShopParagraph {
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 2em;
 }
 
-
-#container {
-    position: relative;
-    top: 20vh;
+.container {
     display: flex;
     justify-content: center;
 }
 
 
 .FirstDiv {
-  position: relative;
-  height: 35vh;
-  width: 25%;
-  left: 0.5%;
+  /* border: 2px solid black; */
+  height: 30vh;
+  width: 22%;
   margin-right: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  cursor: pointer;
+
 }
 
-#ProductsBTN {
+#CapImage {
     position: relative;
-    top: 20vh;
-    height: 5vh;
-    width: 17%;
-    left: 42%;
-    background-color: red;
-    border: none;
-    color: white;
-    font-size: large;
-    align-content: center;
-    cursor: pointer;
+    left: 15%;
 }
 
-.FirstImage {
+
+#HeadphoneImage {
+    position: relative;
+    left: 15%;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    align-items: center;
 }
 
 
-.Answers {
-  display: none;
-}
-
-
-#FAQDiv {
+#BeigeIMG {
     position: relative;
-    top: 25vh;
+    right: -11%;
 }
 
-#BottomText {
+#ListNav {
     position: relative;
-    top: 30vh;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    font-family: Arial;
+    left: 10%;
+    height: 100%;
+    width: 10%;
+    display: none;
+
 }
+
+#ListUL {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+.ShopLi {
+    margin-bottom: 10px;
+}
+
+
+
 
