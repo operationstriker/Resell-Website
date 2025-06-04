@@ -20,7 +20,7 @@
 #BuyBtn {
     position: relative;
     top: 10%;
-    background-color: rgb(0, 166, 255);
+     background-color: rgb(0, 0, 0);
     color: white;
     height: 7vh;
     width: 100%;
@@ -69,6 +69,9 @@
     bottom: 10vh;
     margin: 0px;
 }
+
+
+
 
 
 
