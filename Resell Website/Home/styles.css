@@ -15,6 +15,7 @@ body {
 nav {
     position: relative;
     top: 5vh;
+    left: -40%;
     height: 2.5vh;
     /* width: 80%; */
     text-align: center;
@@ -72,11 +73,12 @@ a {
     border-bottom: 2px solid black; */
     justify-content: center;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: bold;
     cursor: pointer;
     width: 25%;
+ 
 }
 
 .Questions:hover {
