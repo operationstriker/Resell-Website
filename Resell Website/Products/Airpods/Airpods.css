@@ -30,21 +30,6 @@
     font-size: 1.5em;
 }
 
-#LinkBTN {
-     position: relative;
-    top: 14%;
-     background-color: rgb(0, 0, 0);
-    color: white;
-    height: 7vh;
-    cursor: pointer;
-    border-radius: 10px;
-    border-color: black;
-    font-size: 1.5em; 
-    font-family: Arial;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 #ButtonContainer {
     position: relative;
     justify-content: right;
