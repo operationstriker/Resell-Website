@@ -1,0 +1,79 @@
+body {
+    margin: 0px;   
+    /* overflow-x: hidden;                    */
+}
+
+
+#JBLImage {
+    position: relative;
+    left: 10%;
+    top: 10vh;
+    margin: 0px;
+}
+
+#CartBtn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 7vh;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 1.5em;
+}
+
+#BuyBtn {
+    position: relative;
+    top: 10%;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    height: 7vh;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 1.5em;
+}
+
+#ButtonContainer {
+    position: relative;
+    justify-content: right;
+    margin: 0 auto;
+    bottom: 40vh;
+    left: 15%;
+    height: 12vh;
+    width: 30%;
+}
+
+
+#Title {
+    position: relative;
+    left: 50%;
+    bottom: 40vh;
+}
+
+
+#ItemID {
+   font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: bold; 
+}
+
+#PriceID {
+    position: relative;
+    bottom: 2vh;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+#LikeText {
+    position: relative;
+    bottom: 10vh;
+    margin: 0px;
+}
+
+
+
