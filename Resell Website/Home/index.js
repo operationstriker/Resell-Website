@@ -39,13 +39,7 @@ Question3.addEventListener("click", event => {
 const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
 
-function Open4() {
-     Answer4.style.display = "block"
 
-    if(Answer4.style.display == "block") {
-        Answer4.style.display = "none"
-    }
-}
 
 const Question5 = document.getElementById("Question5")
 const Answer5 = document.getElementById("Answer5")
