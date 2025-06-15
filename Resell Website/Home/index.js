@@ -37,6 +37,7 @@ function Open3() {
     }
 }
 
+const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
 
 function Open4() {
