@@ -2,11 +2,16 @@
 const Question1 = document.getElementById("Question1")
 const Answer1 = document.getElementById("Answer1")
 
+if (Question1.onclick == true) {
+    alert("f")
+}
 
 function Open1() {
     Answer1.style.display = "block"
 
-    if(Answer1.style.display = "block") {
+    
+    if(Answer1.style.display == "block") {
+        alert("R")
         Answer1.style.display == "none"
     }
 }
