@@ -22,15 +22,6 @@ Question2.addEventListener("click", event => {
      }
 })
 
-function Open2() {
- Answer2.style.display = "block"
-
-    if(Answer2.style.display = "block") {
-        Answer2.style.display == "none"
-    } else {
-         Answer2.style.display == "block"
-    }
-}
 
 
 const Question3 = document.getElementById("Question3")
