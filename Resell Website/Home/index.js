@@ -7,11 +7,12 @@ function Open1() {
 
     
     if(Answer1.style.display == "block") {
-        if(Question1.onclick = true) {
-        }
+  
         Answer1.style.display == "none"
     }
 }
+
+
 
 
 const Question2 = document.getElementById("Question2")
@@ -72,3 +73,4 @@ function toggleAnswer(answerId) {
         answer.style.display = "block";
     }
 }
+
