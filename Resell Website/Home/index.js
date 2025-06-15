@@ -10,18 +10,6 @@ Question1.addEventListener("click", event => {
      }
 })
 
-// function Open1() {
-//     Answer1.style.display = "block"
-
-    
-//     if(Answer1.style.display == "block") {
-  
-//         Answer1.style.display == "none"
-//     }
-// }
-
-
-
 
 const Question2 = document.getElementById("Question2")
 const Answer2 = document.getElementById("Answer2")
