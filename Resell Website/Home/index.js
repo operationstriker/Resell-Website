@@ -2,16 +2,13 @@
 const Question1 = document.getElementById("Question1")
 const Answer1 = document.getElementById("Answer1")
 
-if (Question1.onclick == true) {
-    alert("f")
-}
-
 function Open1() {
     Answer1.style.display = "block"
 
     
     if(Answer1.style.display == "block") {
-        alert("R")
+        if(Question1.onclick = true) {
+        }
         Answer1.style.display == "none"
     }
 }
@@ -61,5 +58,25 @@ function Open5() {
 
     if(Answer5.style.display = "block") {
         Answer5.style.display == "none"
+    }
+}
+
+
+// function toggleAnswer(answerId) {
+//     const answer = document.getElementById(answerId);
+//     if (answer.style.display === "block") {
+//         answer.style.display = "none";
+//     } else {
+//         answer.style.display = "block";
+//     }
+// }
+
+
+function toggleAnswer(answerId) {
+    const answer = document.getElementById(answerId);
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+    } else {
+        answer.style.display = "block";
     }
 }
