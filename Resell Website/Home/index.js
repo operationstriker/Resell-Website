@@ -14,6 +14,14 @@ Question1.addEventListener("click", event => {
 const Question2 = document.getElementById("Question2")
 const Answer2 = document.getElementById("Answer2")
 
+Question2.addEventListener("click", event => {
+     if(Answer2.style.display === "none"){
+        Answer2.style.display = "block"
+     } else {
+        Answer2.style.display = "none"
+     }
+})
+
 function Open2() {
  Answer2.style.display = "block"
 
