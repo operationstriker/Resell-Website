@@ -50,13 +50,6 @@ Question4.addEventListener("click", event => {
 const Question5 = document.getElementById("Question5")
 const Answer5 = document.getElementById("Answer5")
 
-function Open5() {
-   Answer5.style.display = "block"
-
-    if(Answer5.style.display = "block") {
-        Answer5.style.display == "none"
-    }
-}
 
 
 
