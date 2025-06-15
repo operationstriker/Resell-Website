@@ -10,15 +10,15 @@ Question1.addEventListener("click", event => {
      }
 })
 
-function Open1() {
-    Answer1.style.display = "block"
+// function Open1() {
+//     Answer1.style.display = "block"
 
     
-    if(Answer1.style.display == "block") {
+//     if(Answer1.style.display == "block") {
   
-        Answer1.style.display == "none"
-    }
-}
+//         Answer1.style.display == "none"
+//     }
+// }
 
 
 
