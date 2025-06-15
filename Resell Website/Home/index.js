@@ -27,13 +27,7 @@ Question2.addEventListener("click", event => {
 const Question3 = document.getElementById("Question3")
 const Answer3 = document.getElementById("Answer3")
 
-function Open3() {
- Answer3.style.display = "block"
 
-    if(Answer3.style.display = "block") {
-        Answer3.style.display == "none"
-    }
-}
 
 const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
