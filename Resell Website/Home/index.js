@@ -28,6 +28,13 @@ const Question3 = document.getElementById("Question3")
 const Answer3 = document.getElementById("Answer3")
 
 
+Question3.addEventListener("click", event => {
+     if(Answer3.style.display === "none"){
+        Answer3.style.display = "block"
+     } else {
+        Answer3.style.display = "none"
+     }
+})
 
 const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
