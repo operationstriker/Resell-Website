@@ -51,6 +51,12 @@ const Question5 = document.getElementById("Question5")
 const Answer5 = document.getElementById("Answer5")
 
 
-
+Question5.addEventListener("click", event => {
+     if(Answer5.style.display === "none"){
+        Answer5.style.display = "block"
+     } else {
+        Answer5.style.display = "none"
+     }
+})
 
 
