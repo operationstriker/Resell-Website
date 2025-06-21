@@ -46,4 +46,15 @@ Question5.addEventListener("click", event => {
      }
 })
 
+const Question6 = document.getElementById("Question5")
+const Answer6 = document.getElementById("Answer5")
+
+
+Question6.addEventListener("click", event => {
+     if(Answer6.style.display === "none"){
+        Answer6.style.display = "block"
+     } else {
+        Answer6.style.display = "none"
+     }
+})
 
