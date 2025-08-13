@@ -37,9 +37,6 @@ Question3.addEventListener("click", event => {
 const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
 
-Question4.onclick = function() {
-   alert("f")
-}
 
 Question4.addEventListener("click", event => {
         if(Answer4.style.display === "none"){
@@ -60,5 +57,3 @@ Question5.addEventListener("click", event => {
         Answer5.style.display = "none"
      }
 })
-
-
