@@ -23,11 +23,26 @@ Question2.addEventListener("click", event => {
 })
 
 
+const Question3 = document.getElementById("Question4")
+const Answer3 = document.getElementById("Answer4")
+
+Question3.addEventListener("click", event => {
+     if(Answer3.style.display === "none"){
+        Answer3.style.display = "block"
+     } else {
+        Answer3.style.display = "none"
+     }
+})
+
 const Question4 = document.getElementById("Question4")
 const Answer4 = document.getElementById("Answer4")
 
+Question4.onclick = function() {
+   alert("f")
+}
+
 Question4.addEventListener("click", event => {
-     if(Answer4.style.display === "none"){
+        if(Answer4.style.display === "none"){
         Answer4.style.display = "block"
      } else {
         Answer4.style.display = "none"
@@ -46,15 +61,4 @@ Question5.addEventListener("click", event => {
      }
 })
 
-const Question6 = document.getElementById("Question5")
-const Answer6 = document.getElementById("Answer5")
-
-
-Question6.addEventListener("click", event => {
-     if(Answer6.style.display === "none"){
-        Answer6.style.display = "block"
-     } else {
-        Answer6.style.display = "none"
-     }
-})
 
