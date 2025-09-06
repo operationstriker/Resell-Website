@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airpods</title>
     <link rel="stylesheet" href="Airpods.css">
+        <link rel="icon" type="image" href="./Images/NewLogo.png">
 </head>
 <body>
 
@@ -28,10 +29,31 @@
     </button>
     </div>
 
+
+
 </body>
-<script>
-    function OpenLink() {
-        window.open("https://buy.stripe.com/dRm5kEfAy1ZycU4adb7kc00")
-    }
-</script>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script>
+    // Replace with your Stripe publishable key
+    const stripe = Stripe("pk_live_51RcJGbLOB8lIG2cKkrh4P2jFeKa1EwgMkbZZvqV7RLte1naRvsmrHaG27tEOQbfGTi5tAH81GXXQTcHaKbkCUzIy00kGmNPV2F");
+
+    document.getElementById("BuyBtn").addEventListener("click", async () => {
+      try {
+        const res = await fetch("http://localhost:4242/create-checkout-session", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ priceId: "price_1RcLhuLOB8lIG2cKdITWsuDO" })
+        });
+
+        const session = await res.json();
+
+        // Redirect to Stripe Checkout
+        await stripe.redirectToCheckout({ sessionId: session.id });
+      } catch (err) {
+        console.error("Checkout error:", err);
+        alert("Something went wrong. Check console for details.");
+      }
+    });
+  </script>
 </html>
