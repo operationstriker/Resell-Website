@@ -15,6 +15,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // API to send email
+// msre ydbk xrcm sssg
 app.post("/send-email", async (req, res) => {
   const { customerEmail, paymentLink } = req.body;
 
@@ -38,4 +39,3 @@ app.post("/send-email", async (req, res) => {
 });
 
 app.listen(3000, () => console.log("Server running on http://localhost:3000"));
-
