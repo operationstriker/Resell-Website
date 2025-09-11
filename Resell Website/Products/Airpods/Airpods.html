@@ -43,7 +43,7 @@
     }
   </script> -->
 
-  <script>
+  <!-- <script>
 async function sendEmail() {
   const customerEmail = prompt("Enter your email:");
 
@@ -60,5 +60,24 @@ async function sendEmail() {
 
   alert("Check your inbox for the payment link!");
 }
+</script> -->
+
+
+<script>
+async function sendEmail() {
+  const customerEmail = prompt("Enter your email:");
+  if (!customerEmail) return;
+
+  const res = await fetch("http://localhost:3000/create-checkout-session", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ customerEmail })
+  });
+
+  const data = await res.json();
+  window.location.href = data.url; // send them to Stripe checkout
+}
 </script>
+
+
 </html>
