@@ -1,41 +1,28 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const bodyParser = require("body-parser");
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
-const app = express();
-app.use(bodyParser.json());
-
-// Setup Gmail transporter
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: process.env.EMAIL_USER, // your Gmail address
-    pass: process.env.EMAIL_PASS  // Gmail App Password
-  }
-});
-
-// API to send email
-// msre ydbk xrcm sssg
-app.post("/send-email", async (req, res) => {
-  const { customerEmail, paymentLink } = req.body;
-
+// Endpoint to create checkout session
+app.post("/create-checkout-session", async (req, res) => {
   try {
-    await transporter.sendMail({
-      from: `"Airpods Vendor" <${process.env.EMAIL_USER}>`,
-      to: customerEmail,
-      subject: "Complete Your Purchase",
-      html: `
-        <p>Thanks for shopping with us!</p>
-        <p>Click below to complete your payment:</p>
-        <a href="${paymentLink}">${paymentLink}</a>
-      `
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ["card"],
+      mode: "payment",
+      line_items: [
+        {
+          price_data: {
+            currency: "usd",
+            product_data: { name: "Airpods Vendor" },
+            unit_amount: 1500, // $15.00
+          },
+          quantity: 1,
+        },
+      ],
+      success_url: "http://localhost:3000/success",
+      cancel_url: "http://localhost:3000/cancel",
+      customer_email: req.body.customerEmail, // store their email
     });
 
-    res.json({ success: true, message: "Email sent!" });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, error: "Email failed to send" });
+    res.json({ url: session.url });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
-
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));
