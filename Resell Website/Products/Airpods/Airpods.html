@@ -47,6 +47,7 @@ async function sendEmail() {
   const customerEmail = prompt("Enter your email:");
   if (!customerEmail) return;
 
+  // Call backend to create checkout session
   const res = await fetch("http://localhost:3000/create-checkout-session", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -54,7 +55,13 @@ async function sendEmail() {
   });
 
   const data = await res.json();
-  window.location.href = data.url; // send them to Stripe checkout
+
+  if (data.url) {
+    // Redirect user to Stripe checkout
+    window.location.href = data.url;
+  } else {
+    alert("Error creating checkout session");
+  }
 }
 </script>
 </html>
