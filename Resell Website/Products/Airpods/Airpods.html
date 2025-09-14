@@ -28,7 +28,7 @@
         <b>BUY IT NOW</b>
     </button> -->
 
-    <button id="BuyBtn" onclick="sendEmail()">
+    <button id="BuyBtn" onclick="OpenLink()">
   <b>BUY IT NOW</b>
 </button>
     </div>
@@ -37,31 +37,10 @@
 
 </body>
 
-  <!-- <script>
+  <script>
    function OpenLink() {
         window.open("https://buy.stripe.com/dRm5kEfAy1ZycU4adb7kc00")
     }
-  </script> -->
-<script>
-async function sendEmail() {
-  const customerEmail = prompt("Enter your email:");
-  if (!customerEmail) return;
+  </script>
 
-  // Call backend to create checkout session
-  const res = await fetch("http://localhost:3000/create-checkout-session", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ customerEmail })
-  });
-
-  const data = await res.json();
-
-  if (data.url) {
-    // Redirect user to Stripe checkout
-    window.location.href = data.url;
-  } else {
-    alert("Error creating checkout session");
-  }
-}
-</script>
 </html>
