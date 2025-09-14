@@ -42,27 +42,6 @@
         window.open("https://buy.stripe.com/dRm5kEfAy1ZycU4adb7kc00")
     }
   </script> -->
-
-  <!-- <script>
-async function sendEmail() {
-  const customerEmail = prompt("Enter your email:");
-
-  if (!customerEmail) return;
-
-  await fetch("http://localhost:3000/send-email", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      customerEmail: customerEmail,
-      paymentLink: "https://buy.stripe.com/dRm5kEfAy1ZycU4adb7kc00"
-    })
-  });
-
-  alert("Check your inbox for the payment link!");
-}
-</script> -->
-
-
 <script>
 async function sendEmail() {
   const customerEmail = prompt("Enter your email:");
@@ -78,6 +57,4 @@ async function sendEmail() {
   window.location.href = data.url; // send them to Stripe checkout
 }
 </script>
-
-
 </html>
