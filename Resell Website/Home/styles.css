@@ -37,6 +37,17 @@ a {
     color: black;
 }
 
+#LinkID {
+    font-size: 4vw;
+}
+
+@media(max-width: 600px) {
+    #LinkID {
+      font-size: 3vw;
+    }
+}
+
+
 
 .NavImages {
     position: relative;
@@ -65,7 +76,7 @@ a {
 
 @media(max-width: 600px) {
     #FAQ {
-      font-size: 6vw;
+      font-size: 10vw;
     }
 }
 
@@ -235,3 +246,7 @@ option {
 .ShopLi {
     margin-bottom: 10px;
 }
+
+
+
+
