@@ -115,8 +115,6 @@ a {
   position: relative;
   height: 25vh;
   width: 25%;
-  left: 0.5%;
-  margin-bottom: 20px;
 }
 
 @media(max-width: 600px) {
