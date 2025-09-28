@@ -47,11 +47,11 @@ a {
     }
 }
 
-@media(max-width: 600px) {
-    .FirstDiv {
+/* @media(max-width: 500px) {
+    .container {
         flex-direction: column;
     }
-}
+} */
 
 
 
@@ -113,11 +113,10 @@ a {
 
 .FirstDiv {
   position: relative;
-  height: 35vh;
+  height: 25vh;
   width: 25%;
   left: 0.5%;
-  margin-right: 20px;
-  margin-bottom: 50px;
+  margin-right: 0px;
 }
 
 @media(max-width: 600px) {
