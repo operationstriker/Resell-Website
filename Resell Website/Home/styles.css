@@ -53,6 +53,13 @@ a {
     }
 } */
 
+@media(max-width: 500px) {
+    .container {
+        height: 15vh;
+    }
+}
+
+
 
 
 .NavImages {
@@ -115,6 +122,7 @@ a {
   position: relative;
   height: 25vh;
   width: 25%;
+  left: 0.5%;
 }
 
 @media(max-width: 600px) {
@@ -198,6 +206,7 @@ option {
 .container {
     display: flex;
     justify-content: center;
+    margin-bottom: 55px;
 }
 
 
